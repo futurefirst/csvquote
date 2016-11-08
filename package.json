@@ -1,0 +1,30 @@
+{
+  "name": "csvquote",
+  "version": "0.0.1",
+  "description": "Parses CSV input and quotes all string fields",
+  "main": "csvquote.js",
+  "bin": {
+    "csvquote": "csvquote.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/futurefirst/csvquote.git"
+  },
+  "keywords": [
+    "csv",
+    "escape",
+    "quotes"
+  ],
+  "author": "David Knoll <david@futurefirst.org.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/futurefirst/csvquote/issues"
+  },
+  "homepage": "https://github.com/futurefirst/csvquote#readme",
+  "dependencies": {
+    "csv": "^1.1.0"
+  }
+}
